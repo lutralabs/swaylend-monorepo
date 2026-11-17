@@ -19,6 +19,8 @@ overrides:
   '@fuel-ts/utils': 0.101.3
   '@fuel-ts/versions': 0.101.3
   '@fuel-ts/program': 0.101.3
+  undici@<7.30.2: ^7.30.2
+  '@sentio/graph-cli>open': ^11.0.0
 
 importers:
 
@@ -5834,8 +5836,8 @@ packages:
     resolution: {integrity: sha512-A6p/pu/6fyBcA1TRz/GqWYPViplrftcW2gZC9q79ngNCKAeR/X3gcEdXQHl4KNXV+3wgIJ1CPkJQ3IHM6lcsyA==}
     engines: {node: '>=18'}
 
-  default-browser@5.2.1:
-    resolution: {integrity: sha512-WY/3TUME0x3KPYdRRxEJJvXRHV4PyPoUsxtZa78lwItwRQRHhd2U9xOscaT/YTf8uCXIAjeJOFBVEh/7FtD8Xg==}
+  default-browser@5.5.1:
+    resolution: {integrity: sha512-m1pAzaJgZ/gssEqlOhJkPJp8Xly7QyW6xcrkUa2KKcDeDSEMP7X8xipU3snUcfisTQx0w1AGae+9UtJSfVnXGw==}
     engines: {node: '>=18'}
 
   defaults@1.0.4:
@@ -6855,6 +6857,10 @@ packages:
   is-in-browser@1.1.3:
     resolution: {integrity: sha512-FeXIBgG/CPGd/WUxuEyvgGTEfwiG9Z4EKGxjNMRqviiIIfsmgrpnHLffEDdwUHqNva1VEW91o3xBT/m8Elgl9g==}
 
+  is-in-ssh@1.0.0:
+    resolution: {integrity: sha512-jYa6Q9rH90kR1vKB6NM7qqd1mge3Fx4Dhw5TVlK1MUBqhEOuCagrEHMevNuCcbECmXZ0ThXkRm+Ymr51HwEPAw==}
+    engines: {node: '>=20'}
+
   is-inside-container@1.0.0:
     resolution: {integrity: sha512-KIYLCCJghfHZxqjYBE7rEy0OBuTd5xCHS7tHVgvCLkx7StIoaxwNW3hCALgEUjFfeRk+MG/Qxmp/vtETEF3tRA==}
     engines: {node: '>=14.16'}
@@ -7709,7 +7715,7 @@ packages:
   native-fetch@4.0.2:
     resolution: {integrity: sha512-4QcVlKFtv2EYVS5MBgsGX5+NWKtbDbIECdUXDBGDMAZXq3Jkv9zf+y8iS7Ub8fEdga3GpYeazp9gauNqXHJOCg==}
     peerDependencies:
-      undici: '*'
+      undici: ^7.30.2
 
   negotiator@0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
@@ -7884,9 +7890,9 @@ packages:
     resolution: {integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==}
     engines: {node: '>=6'}
 
-  open@10.1.0:
-    resolution: {integrity: sha512-mnkeQ1qP5Ue2wd+aivTD3NHd/lZ96Lu0jgf0pwktLPtx6cTZiH7tyeGRRHs0zX0rbrahXPnXlUnbeXyaBBuIaw==}
-    engines: {node: '>=18'}
+  open@11.0.4:
+    resolution: {integrity: sha512-++Zlftm0kVLPmzC06t6epuWmcRMDbI4z5P3NNX979WA/k23+NtSOynEGzsVfZwguKw2mi5umVgnBlJQMwRz4Pg==}
+    engines: {node: '>=20'}
 
   open@7.4.2:
     resolution: {integrity: sha512-MVHddDVweXZF3awtlAS+6pgKLlm/JgxZ90+/NBurBoQctVOOB/zDdVjcyPzQ+0laDGbsWgrRkflI65sQeOgT9Q==}
@@ -8203,6 +8209,10 @@ packages:
         optional: true
       rrweb-snapshot:
         optional: true
+
+  powershell-utils@0.2.1:
+    resolution: {integrity: sha512-C+y9x90UElAddDZmV4qOx9W53B61PO7cIqWz2dQsWlwswuq4mr8NEwytdGKboYbQlGZ3awrkTeNvcZiZNHnQ8A==}
+    engines: {node: '>=20'}
 
   preact@10.26.9:
     resolution: {integrity: sha512-SSjF9vcnF27mJK1XyFMNJzFd5u3pQiATFqoaDy03XuN00u4ziveVVEGt5RKJrDR8MHE/wJo9Nnad56RLzS2RMA==}
@@ -9436,8 +9446,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.7.0:
-    resolution: {integrity: sha512-tZ6+5NBq4KH35rr46XJ2JPFKxfcBlYNaqLF/wyWIO9RMHqqU/gx/CLB1Y2qMcgB8lWw/bKHa7qzspqCN7mUHvA==}
+  undici@7.30.2:
+    resolution: {integrity: sha512-mLyPQnHwUxaM/rideoK/+KL8DaAJLRl4aBCfmX444aCSLnIaomqPLtNRe2jdCYcsk5wZzXrDIQC8ZeYNRAYyIA==}
     engines: {node: '>=20.18.1'}
 
   unfetch@4.2.0:
@@ -9934,6 +9944,10 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+
+  wsl-utils@1.0.1:
+    resolution: {integrity: sha512-c16PKLIRxBYpR3jSWsdS7SFp0COm5SOQdiFjY818dYFHJbMGuLBszpF07LBWmOS1uzrHa9VGdynsEgoeKy0oOQ==}
+    engines: {node: '>=20'}
 
   xmlhttprequest-ssl@2.0.0:
     resolution: {integrity: sha512-QKxVRxiRACQcVuQEYFsI1hhkrMlrXHPegbbd1yn9UHOmRxY+si12nQYzri3vbzt8VdTTRviqcKxcyllFas5z2A==}
@@ -14644,12 +14658,12 @@ snapshots:
       immutable: 5.1.1
       jayson: 4.1.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       js-yaml: 4.1.0
-      kubo-rpc-client: 5.2.0(undici@7.7.0)
-      open: 10.1.0
+      kubo-rpc-client: 5.2.0(undici@7.30.2)
+      open: 11.0.4
       prettier: 3.5.3
       semver: 7.7.1
       tmp-promise: 3.0.3
-      undici: 7.7.0
+      undici: 7.30.2
       web3-eth-abi: 4.4.1(typescript@5.9.2)(zod@4.1.5)
       yaml: 2.7.1
     transitivePeerDependencies:
@@ -17790,7 +17804,7 @@ snapshots:
 
   default-browser-id@5.0.0: {}
 
-  default-browser@5.2.1:
+  default-browser@5.5.1:
     dependencies:
       bundle-name: 4.1.0
       default-browser-id: 5.0.0
@@ -19075,6 +19089,8 @@ snapshots:
 
   is-in-browser@1.1.3: {}
 
+  is-in-ssh@1.0.0: {}
+
   is-inside-container@1.0.0:
     dependencies:
       is-docker: 3.0.0
@@ -19521,7 +19537,7 @@ snapshots:
 
   keyvaluestorage-interface@1.0.0: {}
 
-  kubo-rpc-client@5.2.0(undici@7.7.0):
+  kubo-rpc-client@5.2.0(undici@7.30.2):
     dependencies:
       '@ipld/dag-cbor': 9.2.5
       '@ipld/dag-json': 10.2.5
@@ -19550,7 +19566,7 @@ snapshots:
       merge-options: 3.0.4
       multiformats: 13.4.0
       nanoid: 5.1.6
-      native-fetch: 4.0.2(undici@7.7.0)
+      native-fetch: 4.0.2(undici@7.30.2)
       parse-duration: 2.1.4
       react-native-fetch-api: 3.0.0
       stream-to-it: 1.0.1
@@ -20107,9 +20123,9 @@ snapshots:
 
   nanoid@5.1.6: {}
 
-  native-fetch@4.0.2(undici@7.7.0):
+  native-fetch@4.0.2(undici@7.30.2):
     dependencies:
-      undici: 7.7.0
+      undici: 7.30.2
 
   negotiator@0.6.3: {}
 
@@ -20269,12 +20285,14 @@ snapshots:
     dependencies:
       mimic-fn: 2.1.0
 
-  open@10.1.0:
+  open@11.0.4:
     dependencies:
-      default-browser: 5.2.1
+      default-browser: 5.5.1
       define-lazy-prop: 3.0.0
+      is-in-ssh: 1.0.0
       is-inside-container: 1.0.0
-      is-wsl: 3.1.0
+      powershell-utils: 0.2.1
+      wsl-utils: 1.0.1
 
   open@7.4.2:
     dependencies:
@@ -20618,6 +20636,8 @@ snapshots:
       fflate: 0.4.8
       preact: 10.26.9
       web-vitals: 4.2.4
+
+  powershell-utils@0.2.1: {}
 
   preact@10.26.9: {}
 
@@ -21980,7 +22000,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.7.0: {}
+  undici@7.30.2: {}
 
   unfetch@4.2.0: {}
 
@@ -22571,6 +22591,11 @@ snapshots:
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
+
+  wsl-utils@1.0.1:
+    dependencies:
+      is-wsl: 3.1.0
+      powershell-utils: 0.2.1
 
   xmlhttprequest-ssl@2.0.0: {}
 

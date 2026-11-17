@@ -16,7 +16,7 @@
   },
   "packageManager": "pnpm@10.15.0",
   "volta": {
-    "node": "22.18.0",
+    "node": "22.23.5",
     "pnpm": "10.15.0"
   },
   "pnpm": {
@@ -34,7 +34,9 @@
       "@fuel-ts/transactions": "0.101.3",
       "@fuel-ts/utils": "0.101.3",
       "@fuel-ts/versions": "0.101.3",
-      "@fuel-ts/program": "0.101.3"
+      "@fuel-ts/program": "0.101.3",
+      "undici@<7.30.2": "^7.30.2",
+      "@sentio/graph-cli>open": "^11.0.0"
     },
     "onlyBuiltDependencies": [
       "@tailwindcss/oxide",
